@@ -1,5 +1,5 @@
 # DeepFake-Detection
-##GAN generated Deepfake face detection implementing Transfer learning
+## GAN generated Deepfake face detection implementing Transfer learning
 
 
 Inappropriate use of the GANs generated realistic images or videos brings in growing concern in social networks and social media. Doctored images or videos of people or events can have detrimental effects on an individual, lead to political or social unrest, cyber crime and many more. Thus, it is important to effectively and efficiently detect the deepfake images or videos. In this research a novel model is proposed to detect deepfake images implementing Inception-ResNet-v2 through transfer learning. The model is trained and tested on Google colab. The environment provides access to free high-performance GPUs. DCGAN is used to generate the sample of fake images. The architecture consists of ADAM model optimizer, sigmoid cross entropy as the loss function, image subsets in mini batches of size 64. To classify the fake face images from the real pretrained Inception-ResNet-v2 is implemented through transfer learning. The model has yielded high accuracy.
